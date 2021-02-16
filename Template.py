@@ -26,7 +26,6 @@ while running:
         if event.type == pg.QUIT:
             running = False
     #Update
-    all_sprites.update()
     #Drawing
     screen.fill(BLACK)
     #EndofDrawing
