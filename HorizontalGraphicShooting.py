@@ -128,7 +128,6 @@ while running:
         running = False
     #Drawing
     screen.fill(BLACK)
-    screen.blit(background , background_rect)
     all_sprites.draw(screen)
     #EndofDrawing
     pg.display.flip()
